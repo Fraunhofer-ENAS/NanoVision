@@ -6,7 +6,7 @@ import sys
 
 def run_module(module: str, *args: str) -> None:
     """
-    Run a CNTLib module and stream its output into the notebook.
+    Run a NanoVision module and stream its output into the notebook.
 
     The current notebook kernel's Python interpreter is used so that
     the runner executes in the same environment as the notebook.

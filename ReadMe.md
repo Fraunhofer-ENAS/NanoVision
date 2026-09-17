@@ -1,6 +1,6 @@
-﻿# CNTLib
+﻿# NanoVision
 
-CNTLib is a Python library and research repository for carbon nanotube (CNT) image analysis.
+NanoVision is a Python library and research repository for carbon nanotube (CNT) image analysis.
 
 The project provides reusable functionality for CNT data preprocessing,
 StarDist-based instance segmentation, inference, morphological feature
@@ -11,7 +11,7 @@ The reusable Python source code lives under `src/`.
 
 ## Quick Start: Example Workflows
 
-For a practical introduction to CNTLib, the recommended entry point is the
+For a practical introduction to NanoVision, the recommended entry point is the
 `notebooks/examples/` directory. These notebooks provide compact workflows that
 use the reusable implementation under `src/cnt_project/` to demonstrate the
 main stages of the CNT analysis pipeline.
@@ -81,7 +81,7 @@ components.
 
 ## Python Version
 
-CNTLib currently targets Python 3.12:
+NanoVision currently targets Python 3.12:
 
 ```text
 Python >=3.12,<3.13
@@ -91,9 +91,9 @@ Python 3.12.10 is the currently tested development version.
 
 
 
-## What Can I Use From CNTLib?
+## What Can I Use From NanoVision?
 
-CNTLib is organized around several high-level capabilities. Depending on your
+NanoVision is organized around several high-level capabilities. Depending on your
 task, the following packages are the main entry points.
 
 | Task | Package |
