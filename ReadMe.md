@@ -29,6 +29,25 @@ notebooks/examples/
 For reviewers and users who want to reproduce or inspect the main functionality, these notebooks provide the
 simplest entry point.
 
+## Data and Supplementary Material
+
+The datasets and supplementary materials associated with this repository are archived on Zenodo.
+
+**Dataset**
+
+The dataset used for training, validation, testing, and evaluation is available at:
+
+* Zenodo: https://doi.org/10.5281/zenodo.22814194
+
+After downloading and extracting the dataset, place its contents under:
+
+```text
+data/
+```
+
+so that the repository follows the directory structure described below.
+
+
 
 ## Main Capabilities
 
@@ -203,10 +222,6 @@ global_outputs/reports/<REPORT_NAME>/
 
 Detailed input/output conventions are documented in the corresponding
 localized package documentation.
-
-
-
-
 
 
 
